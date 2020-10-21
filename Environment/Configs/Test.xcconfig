@@ -1,0 +1,20 @@
+//
+//  Test.xcconfig
+//  Environment
+//
+//  Created by HuangZe on 2020/10/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Staging.xcconfig
+// Server URL
+ROOT_URL = https:/$()/www.staging.mytestapp.thoughtbot.com
+
+// Keys
+API_KEY = 89dhdyd93380dkqmoe_hd830dhq
+
+// App Settings
+APP_NAME = MyTestApp (staging)
+APP_BUNDLE_ID = com.thoughtbot.MyTestApp.staging

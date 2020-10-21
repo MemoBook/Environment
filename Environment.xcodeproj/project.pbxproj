@@ -66,6 +66,9 @@
 		5040779B253FD78A004DA3CF /* EnvironmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvironmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5040779F253FD78A004DA3CF /* EnvironmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnvironmentUITests.m; sourceTree = "<group>"; };
 		504077A1253FD78A004DA3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5040782B25400856004DA3CF /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		5040782C2540087F004DA3CF /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		5040782D2540088B004DA3CF /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		5385D1C08B0C24F5384EBBB9 /* Pods-Environment.debug(production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environment.debug(production).xcconfig"; path = "Target Support Files/Pods-Environment/Pods-Environment.debug(production).xcconfig"; sourceTree = "<group>"; };
 		627011A6F53EDBDFBC6E32A5 /* Pods-Environment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environment.debug.xcconfig"; path = "Target Support Files/Pods-Environment/Pods-Environment.debug.xcconfig"; sourceTree = "<group>"; };
 		6A5C8FA73C8997C7BEF17097 /* Pods-Environment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environment.release.xcconfig"; path = "Target Support Files/Pods-Environment/Pods-Environment.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +206,9 @@
 			isa = PBXGroup;
 			children = (
 				50407789253FD789004DA3CF /* Info.plist */,
+				5040782B25400856004DA3CF /* Development.xcconfig */,
+				5040782C2540087F004DA3CF /* Test.xcconfig */,
+				5040782D2540088B004DA3CF /* Production.xcconfig */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
