@@ -564,6 +564,7 @@
 /* Begin XCBuildConfiguration section */
 		504077A2253FD78A004DA3CF /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5040782B25400856004DA3CF /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -623,6 +624,7 @@
 		};
 		504077A3253FD78A004DA3CF /* Release(Development) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5040782B25400856004DA3CF /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -676,7 +678,7 @@
 		};
 		504077A5253FD78A004DA3CF /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9AE6A1A16A393E8F1B94EAD /* Pods-Environment.debug(development).xcconfig */;
+			baseConfigurationReference = 5040782B25400856004DA3CF /* Development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -696,7 +698,7 @@
 		};
 		504077A6253FD78A004DA3CF /* Release(Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BBB25ADBC3078CCD9B42023 /* Pods-Environment.release(development).xcconfig */;
+			baseConfigurationReference = 5040782B25400856004DA3CF /* Development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -796,6 +798,7 @@
 		};
 		50407811254000A6004DA3CF /* Debug(Test) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5040782C2540087F004DA3CF /* Test.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -855,7 +858,7 @@
 		};
 		50407812254000A6004DA3CF /* Debug(Test) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 773DE0B3D1EC12766D970935 /* Pods-Environment.debug(test).xcconfig */;
+			baseConfigurationReference = 5040782C2540087F004DA3CF /* Test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -915,6 +918,7 @@
 		};
 		50407815254000AF004DA3CF /* Debug(Production) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5040782D2540088B004DA3CF /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -974,7 +978,7 @@
 		};
 		50407816254000AF004DA3CF /* Debug(Production) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5385D1C08B0C24F5384EBBB9 /* Pods-Environment.debug(production).xcconfig */;
+			baseConfigurationReference = 5040782D2540088B004DA3CF /* Production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1034,6 +1038,7 @@
 		};
 		50407819254000BC004DA3CF /* Release(Test) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5040782C2540087F004DA3CF /* Test.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1087,7 +1092,7 @@
 		};
 		5040781A254000BC004DA3CF /* Release(Test) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C52C010D4657E1DF85D5FD3 /* Pods-Environment.release(test).xcconfig */;
+			baseConfigurationReference = 5040782C2540087F004DA3CF /* Test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1147,6 +1152,7 @@
 		};
 		5040781D254000C4004DA3CF /* Release(Production) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5040782D2540088B004DA3CF /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1200,7 +1206,7 @@
 		};
 		5040781E254000C4004DA3CF /* Release(Production) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FCB4259EFF2F69A218B31E9 /* Pods-Environment.release(production).xcconfig */;
+			baseConfigurationReference = 5040782D2540088B004DA3CF /* Production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
