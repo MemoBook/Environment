@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -106,7 +106,6 @@
 				B660B93BF8B41A5DE8100649 /* Pods-EnvironmentTests.debug.xcconfig */,
 				E0722E52A1C654B3086E9D57 /* Pods-EnvironmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -521,7 +520,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		504077A2253FD78A004DA3CF /* Debug */ = {
+		504077A2253FD78A004DA3CF /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -578,9 +577,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
-			name = Debug;
+			name = "Debug(Development)";
 		};
-		504077A3253FD78A004DA3CF /* Release */ = {
+		504077A3253FD78A004DA3CF /* Release(Development) */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -631,9 +630,9 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Release(Development)";
 		};
-		504077A5253FD78A004DA3CF /* Debug */ = {
+		504077A5253FD78A004DA3CF /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 627011A6F53EDBDFBC6E32A5 /* Pods-Environment.debug.xcconfig */;
 			buildSettings = {
@@ -651,9 +650,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = "Debug(Development)";
 		};
-		504077A6253FD78A004DA3CF /* Release */ = {
+		504077A6253FD78A004DA3CF /* Release(Development) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A5C8FA73C8997C7BEF17097 /* Pods-Environment.release.xcconfig */;
 			buildSettings = {
@@ -671,9 +670,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = "Release(Development)";
 		};
-		504077A8253FD78A004DA3CF /* Debug */ = {
+		504077A8253FD78A004DA3CF /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B660B93BF8B41A5DE8100649 /* Pods-EnvironmentTests.debug.xcconfig */;
 			buildSettings = {
@@ -692,9 +691,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Environment.app/Environment";
 			};
-			name = Debug;
+			name = "Debug(Development)";
 		};
-		504077A9253FD78A004DA3CF /* Release */ = {
+		504077A9253FD78A004DA3CF /* Release(Development) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0722E52A1C654B3086E9D57 /* Pods-EnvironmentTests.release.xcconfig */;
 			buildSettings = {
@@ -713,9 +712,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Environment.app/Environment";
 			};
-			name = Release;
+			name = "Release(Development)";
 		};
-		504077AB253FD78A004DA3CF /* Debug */ = {
+		504077AB253FD78A004DA3CF /* Debug(Development) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3C36B625A2DDC07A6D35B729 /* Pods-Environment-EnvironmentUITests.debug.xcconfig */;
 			buildSettings = {
@@ -732,9 +731,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Environment;
 			};
-			name = Debug;
+			name = "Debug(Development)";
 		};
-		504077AC253FD78A004DA3CF /* Release */ = {
+		504077AC253FD78A004DA3CF /* Release(Development) */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 967A4B09894537EBC769D4A4 /* Pods-Environment-EnvironmentUITests.release.xcconfig */;
 			buildSettings = {
@@ -751,7 +750,471 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Environment;
 			};
-			name = Release;
+			name = "Release(Development)";
+		};
+		50407811254000A6004DA3CF /* Debug(Test) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug(Test)";
+		};
+		50407812254000A6004DA3CF /* Debug(Test) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627011A6F53EDBDFBC6E32A5 /* Pods-Environment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1021;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = "$(SRCROOT)/Environment/Configs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.Environment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug(Test)";
+		};
+		50407813254000A6004DA3CF /* Debug(Test) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B660B93BF8B41A5DE8100649 /* Pods-EnvironmentTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = EnvironmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.EnvironmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Environment.app/Environment";
+			};
+			name = "Debug(Test)";
+		};
+		50407814254000A6004DA3CF /* Debug(Test) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C36B625A2DDC07A6D35B729 /* Pods-Environment-EnvironmentUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = EnvironmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.EnvironmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Environment;
+			};
+			name = "Debug(Test)";
+		};
+		50407815254000AF004DA3CF /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug(Production)";
+		};
+		50407816254000AF004DA3CF /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627011A6F53EDBDFBC6E32A5 /* Pods-Environment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1021;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = "$(SRCROOT)/Environment/Configs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.Environment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug(Production)";
+		};
+		50407817254000AF004DA3CF /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B660B93BF8B41A5DE8100649 /* Pods-EnvironmentTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = EnvironmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.EnvironmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Environment.app/Environment";
+			};
+			name = "Debug(Production)";
+		};
+		50407818254000AF004DA3CF /* Debug(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C36B625A2DDC07A6D35B729 /* Pods-Environment-EnvironmentUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = EnvironmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.EnvironmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Environment;
+			};
+			name = "Debug(Production)";
+		};
+		50407819254000BC004DA3CF /* Release(Test) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release(Test)";
+		};
+		5040781A254000BC004DA3CF /* Release(Test) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5C8FA73C8997C7BEF17097 /* Pods-Environment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1021;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = "$(SRCROOT)/Environment/Configs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.Environment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release(Test)";
+		};
+		5040781B254000BC004DA3CF /* Release(Test) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0722E52A1C654B3086E9D57 /* Pods-EnvironmentTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = EnvironmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.EnvironmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Environment.app/Environment";
+			};
+			name = "Release(Test)";
+		};
+		5040781C254000BC004DA3CF /* Release(Test) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967A4B09894537EBC769D4A4 /* Pods-Environment-EnvironmentUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = EnvironmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.EnvironmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Environment;
+			};
+			name = "Release(Test)";
+		};
+		5040781D254000C4004DA3CF /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release(Production)";
+		};
+		5040781E254000C4004DA3CF /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5C8FA73C8997C7BEF17097 /* Pods-Environment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1021;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = "$(SRCROOT)/Environment/Configs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.Environment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release(Production)";
+		};
+		5040781F254000C4004DA3CF /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0722E52A1C654B3086E9D57 /* Pods-EnvironmentTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = EnvironmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.EnvironmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Environment.app/Environment";
+			};
+			name = "Release(Production)";
+		};
+		50407820254000C4004DA3CF /* Release(Production) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967A4B09894537EBC769D4A4 /* Pods-Environment-EnvironmentUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4877NTFFXU;
+				INFOPLIST_FILE = EnvironmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.EnvironmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Environment;
+			};
+			name = "Release(Production)";
 		};
 /* End XCBuildConfiguration section */
 
@@ -759,38 +1222,54 @@
 		50407770253FD787004DA3CF /* Build configuration list for PBXProject "Environment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				504077A2253FD78A004DA3CF /* Debug */,
-				504077A3253FD78A004DA3CF /* Release */,
+				504077A2253FD78A004DA3CF /* Debug(Development) */,
+				50407811254000A6004DA3CF /* Debug(Test) */,
+				50407815254000AF004DA3CF /* Debug(Production) */,
+				504077A3253FD78A004DA3CF /* Release(Development) */,
+				50407819254000BC004DA3CF /* Release(Test) */,
+				5040781D254000C4004DA3CF /* Release(Production) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release(Development)";
 		};
 		504077A4253FD78A004DA3CF /* Build configuration list for PBXNativeTarget "Environment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				504077A5253FD78A004DA3CF /* Debug */,
-				504077A6253FD78A004DA3CF /* Release */,
+				504077A5253FD78A004DA3CF /* Debug(Development) */,
+				50407812254000A6004DA3CF /* Debug(Test) */,
+				50407816254000AF004DA3CF /* Debug(Production) */,
+				504077A6253FD78A004DA3CF /* Release(Development) */,
+				5040781A254000BC004DA3CF /* Release(Test) */,
+				5040781E254000C4004DA3CF /* Release(Production) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release(Development)";
 		};
 		504077A7253FD78A004DA3CF /* Build configuration list for PBXNativeTarget "EnvironmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				504077A8253FD78A004DA3CF /* Debug */,
-				504077A9253FD78A004DA3CF /* Release */,
+				504077A8253FD78A004DA3CF /* Debug(Development) */,
+				50407813254000A6004DA3CF /* Debug(Test) */,
+				50407817254000AF004DA3CF /* Debug(Production) */,
+				504077A9253FD78A004DA3CF /* Release(Development) */,
+				5040781B254000BC004DA3CF /* Release(Test) */,
+				5040781F254000C4004DA3CF /* Release(Production) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release(Development)";
 		};
 		504077AA253FD78A004DA3CF /* Build configuration list for PBXNativeTarget "EnvironmentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				504077AB253FD78A004DA3CF /* Debug */,
-				504077AC253FD78A004DA3CF /* Release */,
+				504077AB253FD78A004DA3CF /* Debug(Development) */,
+				50407814254000A6004DA3CF /* Debug(Test) */,
+				50407818254000AF004DA3CF /* Debug(Production) */,
+				504077AC253FD78A004DA3CF /* Release(Development) */,
+				5040781C254000BC004DA3CF /* Release(Test) */,
+				50407820254000C4004DA3CF /* Release(Production) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release(Development)";
 		};
 /* End XCConfigurationList section */
 	};
