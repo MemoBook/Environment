@@ -104,16 +104,12 @@
 		50407777253FD787004DA3CF /* Environment */ = {
 			isa = PBXGroup;
 			children = (
-				50407778253FD787004DA3CF /* AppDelegate.h */,
-				50407779253FD787004DA3CF /* AppDelegate.m */,
-				5040777B253FD787004DA3CF /* SceneDelegate.h */,
-				5040777C253FD787004DA3CF /* SceneDelegate.m */,
-				5040777E253FD787004DA3CF /* ViewController.h */,
-				5040777F253FD787004DA3CF /* ViewController.m */,
-				50407781253FD787004DA3CF /* Main.storyboard */,
-				50407784253FD789004DA3CF /* Assets.xcassets */,
-				50407786253FD789004DA3CF /* LaunchScreen.storyboard */,
-				50407789253FD789004DA3CF /* Info.plist */,
+				504077BB253FD8A1004DA3CF /* ViewControllers */,
+				504077BA253FD897004DA3CF /* Storyboards */,
+				504077B9253FD88E004DA3CF /* Resources */,
+				504077B8253FD887004DA3CF /* Models */,
+				504077B7253FD877004DA3CF /* Controllers */,
+				504077B3253FD864004DA3CF /* Configs */,
 				5040778A253FD789004DA3CF /* main.m */,
 			);
 			path = Environment;
@@ -135,6 +131,58 @@
 				504077A1253FD78A004DA3CF /* Info.plist */,
 			);
 			path = EnvironmentUITests;
+			sourceTree = "<group>";
+		};
+		504077B3253FD864004DA3CF /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				50407789253FD789004DA3CF /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		504077B7253FD877004DA3CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50407778253FD787004DA3CF /* AppDelegate.h */,
+				50407779253FD787004DA3CF /* AppDelegate.m */,
+				5040777B253FD787004DA3CF /* SceneDelegate.h */,
+				5040777C253FD787004DA3CF /* SceneDelegate.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		504077B8253FD887004DA3CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		504077B9253FD88E004DA3CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50407784253FD789004DA3CF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		504077BA253FD897004DA3CF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				50407786253FD789004DA3CF /* LaunchScreen.storyboard */,
+				50407781253FD787004DA3CF /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		504077BB253FD8A1004DA3CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5040777E253FD787004DA3CF /* ViewController.h */,
+				5040777F253FD787004DA3CF /* ViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,7 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1021;
 				DEVELOPMENT_TEAM = 4877NTFFXU;
-				INFOPLIST_FILE = Environment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Environment/Configs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1021;
 				DEVELOPMENT_TEAM = 4877NTFFXU;
-				INFOPLIST_FILE = Environment/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Environment/Configs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
