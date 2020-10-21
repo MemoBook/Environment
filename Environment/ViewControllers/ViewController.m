@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <MBProgressHUD.h>
 
 @interface ViewController ()
 
@@ -22,8 +23,14 @@
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn setTitle:@"按钮" forState:UIControlStateNormal];
     [btn setBackgroundColor:[UIColor redColor]];
+    [btn addTarget:self action:@selector(hud) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 }
 
-
+-(void)hud {
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.label.text = @"加载中...";
+    
+    [hud hideAnimated:YES afterDelay:4.0];
+}
 @end
