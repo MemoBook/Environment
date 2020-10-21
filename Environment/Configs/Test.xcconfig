@@ -19,5 +19,5 @@ ROOT_URL = https:/$()/www.staging.mytestapp.thoughtbot.com
 API_KEY = 89dhdyd93380dkqmoe_hd830dhq
 
 // App Settings
-APP_NAME = MyTestApp (staging)
-APP_BUNDLE_ID = com.thoughtbot.MyTestApp.staging
+APP_NAME = Environment (Test)
+APP_BUNDLE_ID = com.thoughtbot.www.Environment.Test

@@ -20,5 +20,5 @@ ROOT_URL = http:/$()/localhost:3000
 API_KEY = 783u9djd8a_hkzos7jd803001nd
 
 // App Settings
-APP_NAME = MyTestApp (dev)
-APP_BUNDLE_ID = com.thoughtbot.MyTestApp.dev
+APP_NAME = Environment(Dev)
+APP_BUNDLE_ID = com.changhong.www.Environment.dev
