@@ -8,6 +8,7 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
+#include "Common.xcconfig"
 //导入pods 对应的 config
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.debug(production).xcconfig"
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.release(production).xcconfig"
