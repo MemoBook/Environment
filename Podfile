@@ -7,6 +7,9 @@ target 'Environment' do
 
   # Pods for Environment
   pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'MJExtension'
+
+
   target 'EnvironmentTests' do
     inherit! :search_paths
     # Pods for testing
