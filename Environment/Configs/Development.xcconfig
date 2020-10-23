@@ -20,5 +20,6 @@ APP_SERVER_URL = http:/$()/dsuperapp.mymlsoft.com:8090/saserver
 APPID_HW = 101066229
 
 // App Settings
-PRODUCT_NAME = Environment(Dev)
+PRODUCT_NAME = APP(Dev)
 PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.Environment.dev
+APP_ICON = AppIcon-Dev

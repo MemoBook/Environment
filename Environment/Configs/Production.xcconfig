@@ -20,5 +20,6 @@ APP_SERVER_URL = https:/$()/superapp.mymlsoft.com/saserver
 APPID_HW = 10073398
 
 // App Settings
-PRODUCT_NAME = Environment
+PRODUCT_NAME = APP
 PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.www.Environment
+APP_ICON = AppIcon-Production
