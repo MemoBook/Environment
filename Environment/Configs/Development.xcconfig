@@ -14,11 +14,11 @@
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.release(development).xcconfig"
 
 // Server URL
-ROOT_URL = http:/$()/localhost:3000
+APP_SERVER_URL = "http://dsuperapp.mymlsoft.com:8090/saserver"
 
 // Keys
-API_KEY = 783u9djd8a_hkzos7jd803001nd
+APPID_HW = "101066229"
 
 // App Settings
-APP_NAME = Environment(Dev)
-APP_BUNDLE_ID = com.changhong.www.Environment.dev
+PRODUCT_NAME = Environment(Dev)
+PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.Environment.dev

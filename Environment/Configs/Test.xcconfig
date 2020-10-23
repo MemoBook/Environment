@@ -14,11 +14,11 @@
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.release(test).xcconfig"
 
 // Server URL
-ROOT_URL = https:/$()/www.staging.mytestapp.thoughtbot.com
+APP_SERVER_URL = "https://tsuperapp.mymlsoft.com/saserver"
 
 // Keys
-API_KEY = 89dhdyd93380dkqmoe_hd830dhq
+APPID_HW = "101066229"
 
 // App Settings
-APP_NAME = Environment (Test)
-APP_BUNDLE_ID = com.thoughtbot.www.Environment.Test
+PRODUCT_NAME = Environment (Test)
+PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.www.Environment.Test
