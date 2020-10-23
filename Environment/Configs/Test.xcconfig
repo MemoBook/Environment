@@ -18,7 +18,7 @@ APP_SERVER_URL = https:/$()/tsuperapp.mymlsoft.com/saserver
 TEST_URL = ${APP_SERVER_URL}/api/xxxxxx
 
 // Keys
-APPID_HW = 101066229
+APPID_HW = 22222222
 
 // App Settings
 PRODUCT_NAME = APP(Test)

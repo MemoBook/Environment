@@ -17,7 +17,7 @@
 APP_SERVER_URL = http:/$()/dsuperapp.mymlsoft.com:8090/saserver
 
 // Keys
-APPID_HW = 101066229
+APPID_HW = 333333333
 
 // App Settings
 PRODUCT_NAME = APP(Dev)
