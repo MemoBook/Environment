@@ -704,8 +704,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
-				PRODUCT_NAME = "$(APP_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug(Development)";
@@ -726,8 +726,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
-				PRODUCT_NAME = "$(APP_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Release(Development)";
@@ -888,8 +888,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
-				PRODUCT_NAME = "$(APP_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug(Test)";
@@ -1010,8 +1010,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
-				PRODUCT_NAME = "$(APP_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug(Production)";
@@ -1126,8 +1126,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
-				PRODUCT_NAME = "$(APP_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Release(Test)";
@@ -1242,8 +1242,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
-				PRODUCT_NAME = "$(APP_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Release(Production)";
