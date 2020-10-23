@@ -32,5 +32,7 @@
     hud.label.text = @"加载中...";
     
     [hud hideAnimated:YES afterDelay:4.0];
+    
+    NSLog(@"服务器地址：%@", Environment.shareIntance.config.TEST_URL);
 }
 @end

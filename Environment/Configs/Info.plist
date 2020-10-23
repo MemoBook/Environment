@@ -2,8 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>APP_SERVER_URL</key>
-	<string>$(APP_SERVER_URL)</string>
+	<key>CONFIG_DICTIONARY</key>
+	<dict>
+		<key>TEST_URL</key>
+		<string>$(TEST_URL)</string>
+		<key>APP_SERVER_URL</key>
+		<string>$(APP_SERVER_URL)</string>
+		<key>APPID_HW</key>
+		<string>$(APPID_HW)</string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

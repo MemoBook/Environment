@@ -14,10 +14,12 @@
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.release(test).xcconfig"
 
 // Server URL
-APP_SERVER_URL = "https://tsuperapp.mymlsoft.com/saserver"
+APP_SERVER_URL = https:/$()/tsuperapp.mymlsoft.com/saserver
+
+TEST_URL = ${APP_SERVER_URL}/api/xxxxxx
 
 // Keys
-APPID_HW = "101066229"
+APPID_HW = 101066229
 
 // App Settings
 PRODUCT_NAME = Environment (Test)

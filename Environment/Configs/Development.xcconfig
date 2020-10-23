@@ -14,10 +14,10 @@
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.release(development).xcconfig"
 
 // Server URL
-APP_SERVER_URL = "http://dsuperapp.mymlsoft.com:8090/saserver"
+APP_SERVER_URL = http:/$()/dsuperapp.mymlsoft.com:8090/saserver
 
 // Keys
-APPID_HW = "101066229"
+APPID_HW = 101066229
 
 // App Settings
 PRODUCT_NAME = Environment(Dev)
