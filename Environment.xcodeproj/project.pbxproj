@@ -16,6 +16,7 @@
 		5040778B253FD789004DA3CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040778A253FD789004DA3CF /* main.m */; };
 		50407795253FD78A004DA3CF /* EnvironmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50407794253FD78A004DA3CF /* EnvironmentTests.m */; };
 		504077A0253FD78A004DA3CF /* EnvironmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040779F253FD78A004DA3CF /* EnvironmentUITests.m */; };
+		5040797C25428663004DA3CF /* Environment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040797A25428663004DA3CF /* Environment.m */; };
 		B8B07CD83E49C2A34BA5DFBD /* Pods_Environment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC7468714CF3CFC6D416A85 /* Pods_Environment.framework */; };
 		D6EA9139B65C95773C91080D /* Pods_EnvironmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859835AC4D481AE20DEF5E67 /* Pods_EnvironmentTests.framework */; };
 		FB47B678D561FAAA9E2662E4 /* Pods_Environment_EnvironmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC90E277CF29CFCDF57822A /* Pods_Environment_EnvironmentUITests.framework */; };
@@ -71,6 +72,8 @@
 		5040782D2540088B004DA3CF /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		504078A1254027B8004DA3CF /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		504079732542855E004DA3CF /* Environment.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Environment.pch; sourceTree = "<group>"; };
+		5040797A25428663004DA3CF /* Environment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Environment.m; sourceTree = "<group>"; };
+		5040797B25428663004DA3CF /* Environment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Environment.h; sourceTree = "<group>"; };
 		5385D1C08B0C24F5384EBBB9 /* Pods-Environment.debug(production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environment.debug(production).xcconfig"; path = "Target Support Files/Pods-Environment/Pods-Environment.debug(production).xcconfig"; sourceTree = "<group>"; };
 		627011A6F53EDBDFBC6E32A5 /* Pods-Environment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environment.debug.xcconfig"; path = "Target Support Files/Pods-Environment/Pods-Environment.debug.xcconfig"; sourceTree = "<group>"; };
 		6A5C8FA73C8997C7BEF17097 /* Pods-Environment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environment.release.xcconfig"; path = "Target Support Files/Pods-Environment/Pods-Environment.release.xcconfig"; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 		504077B8253FD887004DA3CF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5040797B25428663004DA3CF /* Environment.h */,
+				5040797A25428663004DA3CF /* Environment.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -509,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50407780253FD787004DA3CF /* ViewController.m in Sources */,
+				5040797C25428663004DA3CF /* Environment.m in Sources */,
 				5040777A253FD787004DA3CF /* AppDelegate.m in Sources */,
 				5040778B253FD789004DA3CF /* main.m in Sources */,
 				5040777D253FD787004DA3CF /* SceneDelegate.m in Sources */,
