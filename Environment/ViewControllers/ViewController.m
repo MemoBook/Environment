@@ -33,6 +33,9 @@
     
     [hud hideAnimated:YES afterDelay:4.0];
     
-    NSLog(@"服务器地址：%@", Environment.shareIntance.config.TEST_URL);
+    NSLog(@"1====服务器地址：%d", [Environment.shareIntance.TEST_URL isEqual:@""]); //这是用于测试plist文件中没有该字段，但是在头文件申请后能否访问
+    NSLog(@"2====服务器地址：%@", Environment.shareIntance.APP_SERVER_URL);
+    NSLog(@"3====服务器地址：%@", Environment.shareIntance.APPID_HW);
+
 }
 @end

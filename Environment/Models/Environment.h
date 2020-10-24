@@ -6,13 +6,19 @@
 //
 
 #import <Foundation/Foundation.h>
-@class Config;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Environment : NSObject
 
-@property (nonatomic, strong)Config *config;
+/// 用户服务器地址
+@property (nonatomic, copy, readonly) NSString *APP_SERVER_URL;
+
+/// 华为授权登录APPID
+@property (nonatomic, copy, readonly) NSString *APPID_HW;
+
+/// 测试
+@property (nonatomic, copy, readonly) NSString *TEST_URL;
 
 + (instancetype)shareIntance;
 

@@ -7,7 +7,7 @@
 
 #import "Environment.h"
  
-static NSString * const CONFIG_KEY = @"CONFIG_DICTIONARY";
+static NSString * const config_key = @"CONFIG_DICTIONARY";
 
 @implementation Environment
 
@@ -16,23 +16,17 @@ static NSString * const CONFIG_KEY = @"CONFIG_DICTIONARY";
     static Environment *_env = nil;
     
     dispatch_once(&onceToken, ^{
-        _env = [[Environment alloc] init];
-        
         //读取plist数据
         NSBundle *bundle = [NSBundle mainBundle];
         NSString *path = [bundle pathForResource:@"Info" ofType:@"plist"];
         NSDictionary *config = [NSDictionary dictionaryWithContentsOfFile:path];
         
-        if ([config.allKeys containsObject:CONFIG_KEY]) {
-            NSDictionary *config_dic = config[CONFIG_KEY];
-            _env.config = [Config mj_objectWithKeyValues:config_dic];
+        if ([config.allKeys containsObject:config_key]) {
+            _env = [Environment mj_objectWithKeyValues:config[config_key]];
         } else {
-            NSLog(@"plist文件不包含：（%@）字段",CONFIG_KEY);
+            NSLog(@"Info.plist file does not contain the（%@）key",config_key);
         }
-        
     });
-    
     return _env;
 }
-
 @end
