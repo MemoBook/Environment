@@ -22,6 +22,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)shareIntance;
 
+- (NSDictionary *)toDictionary;
+
+- (NSString *)toJsonString;
+
 @end
 
 NS_ASSUME_NONNULL_END
