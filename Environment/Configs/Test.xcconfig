@@ -14,7 +14,7 @@
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.release(test).xcconfig"
 
 // Server URL
-APP_SERVER_URL = https:/$()/tsuperapp.mymlsoft.com/saserver
+APP_SERVER_URL = http:/$()/wwww.facebook.com
 TEST_URL = ${APP_SERVER_URL}/api/xxxxxx
 
 // Keys

@@ -14,7 +14,7 @@
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.release(production).xcconfig"
 
 // Server URL
-APP_SERVER_URL = https:/$()/superapp.mymlsoft.com/saserver
+APP_SERVER_URL = http:/$()/wwww.twitter.com
 
 // Keys
 APPID_HW = 1111111111

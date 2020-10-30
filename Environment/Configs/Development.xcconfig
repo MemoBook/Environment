@@ -14,7 +14,7 @@
 #include "Pods/Target Support Files/Pods-Environment/Pods-Environment.release(development).xcconfig"
 
 // Server URL
-APP_SERVER_URL = http:/$()/dsuperapp.mymlsoft.com:8090/saserver
+APP_SERVER_URL = http:/$()/wwww.baidu.com
 
 // Keys
 APPID_HW = 333333333
