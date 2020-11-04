@@ -21,5 +21,5 @@ APPID_HW = 1111111111
 
 // App Settings
 PRODUCT_NAME = APP
-PRODUCT_BUNDLE_IDENTIFIER = com.thoughtbot.www.Environment
+PRODUCT_BUNDLE_IDENTIFIER = com.changhong.www.Environment
 APP_ICON = AppIcon-Production
